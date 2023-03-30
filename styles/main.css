@@ -2,7 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: crosshair;
 }
 
-:root {
+.body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  animation: color-change 1s infinite;
+}
+
+.js-hidden {
+  display: none;
 }
